@@ -32,7 +32,7 @@ export function LoginForm() {
     e.preventDefault()
     setError("")
 
-    // Check credentials
+
     if (email === VALID_CREDENTIALS.admin.email && password === VALID_CREDENTIALS.admin.password) {
       login("admin")
     } else if (email === VALID_CREDENTIALS["team-lead"].email && password === VALID_CREDENTIALS["team-lead"].password) {

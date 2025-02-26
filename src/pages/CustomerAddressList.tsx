@@ -5,7 +5,7 @@ import { Input } from "@/components/ui/input"
 import { Card } from "@/components/ui/card"
 import { ScrollArea } from "@/components/ui/scroll-area"
 import { Table, TableBody, TableCell, TableHead, TableHeader, TableRow } from "@/components/ui/table"
-import { useNavigate } from "react-router-dom"
+// import { useNavigate } from "react-router-dom"
 
 const CUSTOMER_DATA = [
   {

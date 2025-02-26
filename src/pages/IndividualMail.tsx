@@ -233,7 +233,7 @@ export function IndividualMail() {
           </div>
           <div className="flex items-center gap-2">
             <Button variant="outline" onClick={() => {
-              // Save as draft logic here
+        
             }}>
               Save as Draft
             </Button>
