@@ -35,7 +35,7 @@ A modern email client built with React and TypeScript.
 
 1. **Clone the repository:**
     ```sh
-    git clone https://github.com/your-username/Namma-Mail.git
+    git clone https://github.com/pawan-r4ju/Namma-Mail.git
     cd Namma-Mail
     ```
 
@@ -59,11 +59,36 @@ A modern email client built with React and TypeScript.
     npm run preview
     ```
 
+## Project Structure
+
+The project structure is organized as follows:
+
+```
+Namma-Mail/
+├── public/                 # Static assets
+├── src/                    # Source code
+│   ├── assets/             # Images, fonts, etc.
+│   ├── components/         # Reusable UI components
+│   ├── contexts/           # React context providers
+│   ├── hooks/              # Custom React hooks
+│   ├── pages/              # Page components
+│   ├── services/           # API service calls
+│   ├── styles/             # Global styles and TailwindCSS configurations
+│   ├── utils/              # Utility functions
+│   ├── App.tsx             # Main App component
+│   ├── index.tsx           # Entry point
+│   └── ...                 # Other files
+├── .gitignore              # Git ignore file
+├── package.json            # Project dependencies and scripts
+├── README.md               # Project documentation
+├── tailwind.config.js      # TailwindCSS configuration
+├── tsconfig.json           # TypeScript configuration
+└── vite.config.ts          # Vite configuration
+```
+
 ## Configuration
 - **Vite Config:** `vite.config.ts`
 - **TypeScript Config:** `tsconfig.json`
 - **Tailwind CSS Config:** `tailwind.config.js`
 - **Component Aliases:** `components.json`
 
-## License
-This project is licensed under the MIT License.
